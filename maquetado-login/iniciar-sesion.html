@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+    }
+    
+    .header {
+        background-color: #21C08B;
+        width: 100%;
+        height: 80px;
+    }
+    
+    .header__img {
+        width: 50px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <img class="header__img" src="./assets/logo.png" alt="">
+    </header>
+    <section class="login">
+        <section class="login__container">
+            <h2>Inicia sesion</h2>
+            <form class="login_container--form">
+                <input class="input" type="text" placeholder="Correo">
+                <input class="input" type="text" placeholder="Contraseña">
+                <button class="button">Iniciar sesion</button>
+                <div class="login_container--remember-me">
+                    <label>
+                        <input type="checkbox" name="" id="cbox1" value="checkbox">Recuerdame
+                    </label>
+                    <a href="/">Olvide mi Contraseña</a>
+                </div>
+            </form>
+            <section class="login__container--social-media">
+                <div>
+                    <img src="./assets/google.png" alt="google">Inicia sesion con Google
+                </div>
+                <div>
+                    <img src="./assets/twitter.png" alt="twitter">Inicia sesion con Twitter
+                </div>
+            </section>
+            <p class="login_container--register">No tienes ninguna cuenta <a href="">Registrate</a></p>
+        </section>
+
+    </section>
+    <footer class="footer">
+        <a href="/">Terminios de uso</a>
+        <a href="/">Declaracion de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+    </footer>
+</body>
+
+</html>
