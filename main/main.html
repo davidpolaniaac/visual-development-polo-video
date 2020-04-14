@@ -4,10 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
     <title>Main</title>
 </head>
 
 <body>
+    <header class="header">
+        <img class="header__img" src="../assets/logo.png" alt="">
+        <div class="header__menu">
+            <div class="header__menu--profile">
+                <img src="../assets/perfil.png" alt="user">
+                <p>Perfil</p>
+            </div>
+            <ul>
+                <li><a href="/">Cuenta</a></li>
+                <li><a href="/">Cerrar sesión</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="main">
+        <h2 class="main__title">¿Que quieres ver hoy?</h2>
+        <input class="input" type="text" placeholder="Buscar...">
+    </section>
+
+    <h2 class="categories__title">Mi lista</h2>
+
+    <section class="carousel">
+        <div class="carousel__container">
+            <div class="carousel-tem">
+                <img class="carousel-tem__img" src="https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" people>
+                <div class="carousel-tem__details">
+                    <div>
+                        <img src="../assets/play.png" alt="">
+                        <img src="../assets/plus.png" alt="">
+                    </div>
+
+                    <p class="carousel-tem__details--title">Titulo descriptivo</p>
+                    <p class="carousel-tem__details--subtitle">2019 16+ 14 minutos</p>
+                </div>
+            </div>
+            <div class="carousel-tem">
+                <img class="carousel-tem__img" src="https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" people>
+                <div class="carousel-tem__details">
+                    <div>
+                        <img src="../assets/play.png" alt="">
+                        <img src="../assets/plus.png" alt="">
+                    </div>
+
+                    <p class="carousel-tem__details--title">Titulo descriptivo</p>
+                    <p class="carousel-tem__details--subtitle">2019 16+ 14 minutos</p>
+                </div>
+            </div>
+            <div class="carousel-tem">
+                <img class="carousel-tem__img" src="https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" people>
+                <div class="carousel-tem__details">
+                    <div>
+                        <img src="../assets/play.png" alt="">
+                        <img src="../assets/plus.png" alt="">
+                    </div>
+
+                    <p class="carousel-tem__details--title">Titulo descriptivo</p>
+                    <p class="carousel-tem__details--subtitle">2019 16+ 14 minutos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a href="/">Términios de uso</a>
+        <a href="/">Declaración de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+    </footer>
 
 </body>
 
